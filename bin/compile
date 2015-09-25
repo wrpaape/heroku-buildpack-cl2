@@ -32,12 +32,3 @@ cp -r "$CACHE_DIR/sbcl" $BUILD_DIR
 echo "sbcl installed" | indent
 
 # setting up paths for building
-
-export BUILDPACK_DIR
-export CACHE_DIR
-export BUILD_DIR
-
-echo "-----> Starting build"
-# $BUILD_DIR/sbcl/sbcl-1.0.54-x86-64-linux/run-sbcl.sh --load "$BUILDPACK_DIR/bin/compile.lisp" --eval "(sb-ext:quit)"
-echo "just kidding"
-echo "-----> Build finished"
